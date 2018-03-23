@@ -1,0 +1,54 @@
+#POPUP_CONTAINER {
+	
+}
+
+#POPUP_CONTENT {
+	background-color: #222222;
+	padding: 0.5rem;
+}
+
+/* The Entire Page Background */
+#CONTENT {
+	background-color: #444444;
+}
+
+/* The banner containing things like 'file' 'edit' and 'login' */
+#NAVIGATION_BAR {
+	
+}
+
+.LoginButton {
+	text-shadow: 0 0 0.4rem #000000;
+	padding: 0.2rem;
+	cursor: pointer;
+}
+
+.LoginButton:hover{
+	color: #adafe8;
+}
+
+.Text{
+	font-family: Verdana;
+	font-size: 12pt;
+	color: #ffffff;
+}
+
+/* The banner containing icons that have functionality on the current file */
+#TOOL_BAR {
+	
+}
+
+/* The tab for a window that is open, but not active */
+.WindowTab {
+	
+}
+
+/* The tab for a window that is open and active */
+.WindowTabActive {
+	background-color: #222222;
+}
+
+/* The window where content can exist in */
+.Window {
+	background-color: #222222;
+}

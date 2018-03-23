@@ -1,0 +1,114 @@
+/*
+Z-Indices
+-2: Background
+-1: Background Content
+0: Main Content
+1: Foreground Content
+2: Foreground/Topbar
+*/
+
+#POPUP_CONTAINER {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+#POPUP_CONTENT {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+/* The Entire Page Background */
+#CONTENT {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+/* The banner containing things like 'file' 'edit' and 'login' */
+#NAVIGATION_BAR {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+#NAVIGATION_TOOLS {
+	
+}
+
+.FlexStatic {
+	flex-shrink: 0;
+}
+
+.FlexDynamic {
+	flex-grow: 1;
+	height: 100%;
+	width: 100%;
+}
+
+#LOG_CONTAINER {
+	display: flex;
+	flex-direction: row;
+}
+
+.LoginButton {
+	
+}
+
+.Text {
+	
+}
+
+/* The banner containing icons that have functionality on the current file */
+#TOOL_BAR {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+#PAGE {
+	width: 100%;
+	height: 100%;
+}
+
+/* The tab for a window that is open, but not active */
+.WindowTab {
+	
+}
+
+/* The tab for a window that is open and active */
+.WindowTabActive {
+	
+}
+
+/* The window where content can exist in */
+.Window {
+	
+}
+
+.Window[type="Container"]{
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
